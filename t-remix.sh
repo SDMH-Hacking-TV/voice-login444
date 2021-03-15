@@ -11,7 +11,7 @@ echo " "
 echo -e "\e[32m[*]\e[34m Installing T-Remix \e[m "
 echo
 #storage permission
-termux-setup-storage -y && rm -rf T-Remix-master
+termux-setup-storage -y && rm -rf voice-login444
 #updating the packages
 apt-get update -y
  #upgrading the packages
@@ -84,7 +84,7 @@ rm -rf motd
 cd $HOME
 
 
-cd T-Remix
+cd voice-login444
 
 
 #copy new bash.bashrc to usr/etc
